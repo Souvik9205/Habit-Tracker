@@ -1,0 +1,23 @@
+
+
+.triple-calendar-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .side-calendar {
+    width: 30%; /* Adjust width for side calendars */
+  }
+  
+  .middle-calendar {
+    width: 40%; /* Adjust width for the middle calendar */
+  }
+  
+  .highlight-today {
+    background-color: #ed9d34; /* Change to your desired highlight color */
+    color: rgb(25, 11, 11);
+    border-radius: 5%;
+  }
+  
